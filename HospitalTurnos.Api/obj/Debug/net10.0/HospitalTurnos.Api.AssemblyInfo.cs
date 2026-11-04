@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HospitalTurnos.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d84ec3ed73b658b9dfe1489c50f219ac32e6f89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2aed69edde8121233dab989370e93140c37a3d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("HospitalTurnos.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HospitalTurnos.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
