@@ -32,4 +32,13 @@ public class TurnosController : ControllerBase
             return BadRequest("Turno superpuesto - ese medico ya tiene turno a esa hora");
         }
     }
+        [HttpDelete("{id}")] // eliminar turno RF4
+    public IActionResult Delete(int id)
+    {
+        var turno = _db.Turnos.Find(id); // busca turno
+        if (turno == null) return NotFound();
+        _db.Turnos.Remove(turno); // borra
+        _db.SaveChanges();
+        return Ok();
+    }
 }
